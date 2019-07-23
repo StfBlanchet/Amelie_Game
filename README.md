@@ -2,7 +2,7 @@
 
 ## Table of contents
 * [General information](#general-information)
-* [Technologies](#technologies)
+* [Prerequisites](#prerequisites)
 * [Features](#features)
 * [Illustrations](#illustrations)
 * [Status](#status)
@@ -16,21 +16,33 @@ Amelie's trip is a video game using PyGame.
 
 In its initial version, the player has to grab random items in a labyrinth and reach the finish point in a limited time.
 
-## Technologies
+## Prerequisites
 
-* Python 3.7
-* PyGame 1.9.6
+1- Install Python 3.7 \
+2- Install PyGame 1.9.6
+
+```
+$ pip3 install pygame
+```
 
 ## Features
+* the labyrinth has 15 * 15 boxes
+* the labyrinth is chosen randomly (3 different)
+* the player moves from box to box using the arrow keys of the keyboard
+* the player grabs objects as she passes over their location
+* a counter is incremented each time the player picks up an object
+* the 15 objects are randomly distributed in the labyrinth at each new opening of the game
+* time is limited and materialized by a decreasing sidebar
+* the player can at any time restart the game by pressing the space key
 
 ## Illustrations
 
-<img src="illustrations/Amelie_trip_Welcome">
-<img src="illustrations/Amelie_trip_Playground">
-<img src="illustrations/Amelie_trip_Happy_end">
-<img src="illustrations/Amelie_trip_Late">
-<img src="illustrations/Amelie_trip_Missing">
-<img src="illustrations/Amelie_trip_Time_over">
+<img src="illustrations/Amelie_trip_Welcome.png">
+<img src="illustrations/Amelie_trip_Playground.png">
+<img src="illustrations/Amelie_trip_Happy_end.png">
+<img src="illustrations/Amelie_trip_Late.png">
+<img src="illustrations/Amelie_trip_Missing.png">
+<img src="illustrations/Amelie_trip_Time_over.png">
 
 Icons used in Amelie's trip game are [icons8](https://www.icons8.com) free licensed.
 
